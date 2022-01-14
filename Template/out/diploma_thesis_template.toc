@@ -1,6 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Neonatology}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Paul as a Trainingssimulator}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Objectives and tasks of the overall project, technical and economic environment}{2}{}%
-\contentsline {subsection}{\numberline {1.4}Individual objectives and tasks with schedule of the individual team members}{2}{}%
-\contentsline {section}{\numberline {2}Meh}{3}{}%
