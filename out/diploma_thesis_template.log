@@ -1,0 +1,260 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.13)  14 JAN 2022 16:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**DA.tex
+(./DA.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (c:/texlive/2021/texmf-dist/tex/latex/tree-dvips/lingmacros.sty
+\c@enums=\count186
+\widelabel=\dimen139
+\c@tempcnt=\count187
+\c@enumsi=\count188
+\eeindent=\dimen140
+) (c:/texlive/2021/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty
+tree-dvips version .91 of May 16, 1995
+\nodemargin=\dimen141
+\treelinewidth=\dimen142
+\dashlength=\dimen143
+\arrowwidth=\dimen144
+\arrowlength=\dimen145
+\arrowinset=\dimen146
+\pos@t=\toks16
+\pos@b=\toks17
+\pos@l=\toks18
+\pos@r=\toks19
+\pos@tl=\toks20
+\pos@tr=\toks21
+\pos@bl=\toks22
+\pos@br=\toks23
+\@arrow=\count189
+\@tempdimc=\dimen147
+) (c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-08-27 L3 programming layer (loader) 
+ (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-08-04 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count190
+\l__color_backend_stack_int=\count191
+\g__color_backend_stack_int=\count192
+\g__graphics_track_int=\count193
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count194
+\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_link_int=\count196
+))
+Package: xparse 2021-08-27 L3 Experimental document command parser
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_tmpa_int=\count267
+\l__fontspec_tmpb_int=\count268
+\l__fontspec_tmpc_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_strong_int=\count272
+\l__fontspec_strongdef_int=\count273
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+ (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 14.
+
+(out/DA.aux)
+\openout1 = `DA.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 17.
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 23.
+
+(out/DA.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `DA.toc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.41637pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.41637pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.41637pt}.
+
+[1
+
+]
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 31.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.41637pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.41637pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.41637pt}.
+
+[2]
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 63.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.41637pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.41637pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.41637pt}.
+
+[3] (out/DA.aux) ) 
+Here is how much of TeX's memory you used:
+ 3165 strings out of 476493
+ 98289 string characters out of 5820668
+ 447688 words of memory out of 5000000
+ 23606 multiletter control sequences out of 15000+600000
+ 406334 words of font info for 57 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 73i,11n,85p,243b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/DA.xdv (3 pages, 13816 bytes).
