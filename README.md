@@ -2,7 +2,7 @@
 
 Since there is no template for the Diploma Thesis in .Tex format, i decided to write one, in order to learn more about LaTeX.
 
-I used VS Code and the given Word files for the whole project. In addition to that, LuaLaTeX is used for this project, because normal LaTeX cannot used Arial font, which is mandatory.
+I used VS Code and the given Word files for the whole project. In addition to that, LuaLaTeX is used for this project, because normal LaTeX cannot use Arial font, which is mandatory.
 
 Installing everything necessary:
 
