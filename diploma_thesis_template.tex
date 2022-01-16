@@ -2,13 +2,14 @@
 %                                                                                                            
 %
 % ------------------------------------------------------------------------------------------------------------ 
-%  @desc        Diploma Thesis Template for HTL St. Pölten
+%  @desc        Diploma Thesis Digital Capnometer Module
 % ------------------------------------------------------------------------------------------------------------
-%               Written by Bastian Großauer 
+%               Written by Bastian Großauer
 %
-% @author       Bastian Großauer
+% @authors      Bastian Großauer & René Hahn
+% 
 % @datum        14.01.2022
-% @file         diploma_Thesis_template.tex
+% @file         DA.tex
 %
 % @depend       DA_1-4_CAPNO_nf.pdf --------------------------------------------------------------------------
 %               DA_5-6_CAPNO_nf.pdf --------------------------------------------------------------------------
@@ -23,7 +24,7 @@
 
 \documentclass[12pt]{article}
 
-% ----------------------------------------------- imports ----------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% imports %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{lingmacros}
 \usepackage{tree-dvips}
@@ -31,9 +32,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
 \usepackage{graphicx}
-\usepackage[parfill]{parskip}
-\usepackage{ragged2e}
-    \justifying
+\usepackage[document]{ragged2e}
 \usepackage{xcolor}  
 \usepackage{tabto}   
 \usepackage{comment} 
@@ -42,6 +41,7 @@
 \usepackage{lipsum}
 \usepackage{titlesec}
 \usepackage{geometry}
+\usepackage{afterpage}
     \geometry{
                 twoside,
                 a4paper,
@@ -53,7 +53,7 @@
 \setmainfont{Arial}
 \setlength{\headsep}{1.5cm}                                                             % set spce between header and section
 
-% -------------------------------------- Page and Header/Footer Setup ------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page and Header/Footer Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \pagestyle{fancy}
 \fancyhead{}
@@ -74,101 +74,67 @@
 \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
 
 
-% ------------------------------------------- Begin of Document ------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin of Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 %                                                                                       % not sure if there should by 1 blank or 2 in 1-4
-\includepdf[pages={1-4}]{./pdf/DA_1-4_CAPNO_nf.pdf}                                     % write the initial Document with the 
-\includepdf[pages={1-2}]{./pdf/DA_5-6_CAPNO_nf.pdf}                                     % provided templates from sharepoint
-\includepdf[pages={1-2}]{./pdf/DA_7-8_CAPNO_nf.pdf}                                     % then export as pdf and add here
+\includepdf[pages={1-3}]{./pdf/DA_1_CAPNO_nf.pdf}                                     % write the initial Document with the 
+\includepdf[pages={1-2}]{./pdf/DA_2_CAPNO_nf.pdf}                                     % provided templates from sharepoint
+\includepdf[pages={1-2}]{./pdf/DA_3_CAPNO_nf.pdf}                                     % then export as pdf and add here
 
+\clearpage
+\thispagestyle{empty}
+\hfill
+\clearpage
 
 \fancyhead{}
+\clearpage
 
-\pagebreak
+
+% --------------------------------------------- Acknoledgment -----------------------------------------------
+
+\section*{Acknoledgement}
+
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Acknoledgement}}   % change per new section
 
 
-%  ------------------------------------------  Table of Contents-----------------------------------------------
+The overall goal of this ...
+
+\clearpage
+
+
+% ------------------------------------------- Table of Contents ---------------------------------------------
 
 \fancyhead{}
 \fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Contents}}       % change small per new section
-\fancyfoot[RO,LE]{\thepage}                                                             % displaying page number on right Footer
-\pagenumbering{Roman}                                                                   % set page count to roman numbers ONLY ON Table of content                                                    
-\setcounter{page}{1}                                                                    %reseting page count for ToC
+%                                                                                       %reseting page count for ToC
 \tableofcontents
 
-\pagebreak
+\clearpage
 
 
-% --------------------------------------------- actual Document ------------------------------------------------
+% ----------------------------------------------- Preamble --------------------------------------------------
 
-% ---------------- Section 1 ------------------
-
-\section{Introduction}
-
-\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Introduction}}   % change per new section
+\setcounter{section}{-1}
+\section{Preamble}
+\setcounter{section}{0}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Preamble}}   % change per new section
 \fancyfoot[RO,LE]{Page \thepage}    
 \pagenumbering{arabic}                                                                  % set page count to roman numbers ONLY ON Table of content 
 \setcounter{page}{1}
 
 The overall goal of this ...
 
-
-\subsection{Neonatology} 
-
-The neonatology is the
-
-
-\subsection{Paul as a Trainingssimulator}
-
-Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. Paul is a trainingssimulator for medicine students and doctors, who want to practice
-an emergency case in neonatology. 
-
-
-\subsection{Objectives and tasks of the overall project, technical and economic environment}
-
-The objective was to create a module, that simulates a capnometer, while communicating
-with Paul.
-
-
-\subsection{Individual objectives and tasks with schedule of the individual team members}
-
-Bastian Großauer is in charge of the Hardware Design.
 \fancyfoot[C]{Bastian Großauer}                                                            % change to who wrote that page, per page 
 
-\pagebreak
+\clearpage
 
 
 
-% ---------------- Section 2 -------------------
+% --------------------------------------------- Introduction ------------------------------------------------
 
-\section{Basics and Methods}                                                               % Start Second Section and on ...
-\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Basics and Methods}}
+\section{Introduction}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Introduction}}
 
 The overall goal of this ...
 
@@ -210,7 +176,519 @@ with Paul.
 
 \fancyfoot[C]{René Hahn}
 
+\clearpage
 
 
+% --------------------------------------------- Specifications ------------------------------------------------
+
+\section{Specifications}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Specifications}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% ----------------------------------------------- Concept --------------------------------------------------
+
+\section{Concept}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Concept}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+% ---------------------------------- Partition in Hardware and Software ------------------------------------
+\section{Partition in Hardware and Software}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Partition in Hardware and Software}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% --------------------------------------------- Used Technologies ------------------------------------------------
+
+\section{Used Technologies}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Used Technologies}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% --------------------------------------------- Research ------------------------------------------------
+
+\section{Research}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Research}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% ------------------------------------------ Hardware Design -------------------------------------------
+
+\section{Hardware Design}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Hardware Design}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+% ------------------------------------------- Software Design -----------------------------------------------
+
+\section{Software Design}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Software Design}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% ------------------------------------------------ Results ---------------------------------------------------
+--
+\section{Results}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Results}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% --------------------------------------------- Economical Part ------------------------------------------------
+
+\section{Economical Part}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Economical Part}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+% ------------------------------------------ Project Management ---------------------------------------------
+
+\section{Project Management}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Project Management}}
+
+The overall goal of this ...
+
+
+\subsection{Current Situation}
+
+Paul is a trainingssimulator for medicine students and doctors, who want to practice
+an emergency case in neonatology.
+
+
+\subsubsection{Pauls Problem without the Capnometer}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsection{Possible Approaches}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Challenges}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\subsubsection{Display}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+
+\paragraph{Problem Factors}
+
+The objective was to create a module, that simulates a capnometer, while communicating
+with Paul.
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
+
+
+% ----------------------------------------------- Appendix -------------------------------------------------
+
+
+\section{Appendix}
+\fancyhead[RO,LE]{\textbf{Digital Capnometer Extention Module}\\\small{Appendix}}
+
+The overall goal of this ...
+
+
+\subsection{Milestones}
+
+One part of project management is the milestone setting, because ...
+
+
+\subsubsection{Internal Devision of Duties}
+
+Bastian Großauer is in charge of the Hardware Design...
+
+\subsection{Schedule}
+
+The project was scheduled as ...
+
+
+\subsubsection{Contact with the Projectpartner SIMCharacters GmbH}
+
+Initially, an email was sent to Michel Haller if this company could offer a ...
+
+
+\subsubsection{Diploma Seminars}
+
+In the following pages the diploma seminars are visualized ...
+
+\fancyfoot[C]{René Hahn}
+
+\clearpage
 
 \end{document}
