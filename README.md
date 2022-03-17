@@ -21,3 +21,5 @@ https://latex.tugraz.at/programme/tex_live While installing, please make sure to
 
 After installing use the link provided to enable TeX in VS Code
 
+For a gold fiol print on the book cover use the template on sharepoint. Yes, there actually exists one....
+
