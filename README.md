@@ -6,7 +6,7 @@ I used VS Code and the given Word files for the whole project. In addition to th
 
 ![image](https://user-images.githubusercontent.com/79423423/149667815-3b331cda-a783-47c8-b1bc-eabce311d1f6.png)
 
-Afterwards got to the extension setting and serach for "lastused", change from "first" to "lastUsed" and you can compile with the normal run button or (Ctrl+Alt+B).
+Subsequently go to the extension setting and serach for "lastused", change from "first" to "lastUsed" and you can compile with the normal run button or (Ctrl+Alt+B).
 
 ![image](https://user-images.githubusercontent.com/79423423/149667773-b5353e1b-63ca-45e3-b64d-890cec3ddf7f.png)
 
@@ -16,7 +16,7 @@ Installing everything necessary:
 Firstly we need VS Code, here is the install Link: https://code.visualstudio.com/Download
 In VS Code you can install the extention LaTeX Workstation.
 
-Subsequently, a form of TeX needed to be installed. I personally used Tex Live. The download and installation is pretty straight forward, just follow the link provided.
+Next, a form of TeX needed to be installed. I personally used Tex Live, but MikTeX can solve problems, if you have a blank in your latex path. The download and installation is pretty straight forward, just follow the link provided.
 https://latex.tugraz.at/programme/tex_live While installing, please make sure to deactivate all antivirus programms, because without that, the installer wont find a mirror.
 
 After installing use the link provided to enable TeX in VS Code
