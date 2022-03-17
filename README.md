@@ -17,7 +17,7 @@ Firstly we need VS Code, here is the install Link: https://code.visualstudio.com
 In VS Code you can install the extention LaTeX Workstation.
 
 Next, a form of TeX needed to be installed. I personally used Tex Live, but MikTeX can solve problems, if you have a blank in your latex path. The download and installation is pretty straight forward, just follow the link provided.
-https://latex.tugraz.at/programme/tex_live While installing, please make sure to deactivate all antivirus programms, because without that, the installer wont find a mirror.
+https://latex.tugraz.at/programme/tex_live While installing, please make sure to deactivate all antivirus programms, otherwise the installer wont find a mirror.
 
 After installing use the link provided to enable TeX in VS Code
 
